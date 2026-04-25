@@ -119,7 +119,7 @@ git checkout estudiantes
 Copia el archivo `.env.example` y renómbralo a `.env`:
 
 ```bash
-cp .env.example .env
+cp .env .env
 ```
 
 Luego abre el archivo `.env` y llena tus propias credenciales de PostgreSQL:
@@ -336,3 +336,13 @@ LinkedIn • GitHub • Backend Engineer
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo la **Apache License 2.0**.
+
+# BookingYa - QA Automation Project
+
+Proyecto de automatización de pruebas que implementa:
+
+- TDD (JUnit + Mockito)
+- BDD (Cucumber + Screenplay)
+- ATDD (Playwright + TypeScript)
+
+Arquitectura basada en el patrón Screenplay para pruebas de API REST.

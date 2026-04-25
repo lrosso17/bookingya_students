@@ -41,3 +41,23 @@ out/
 
 # Serenity reports
 **/site/serenity/
+
+
+# Node / Playwright
+
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+
+# Environment
+.env
+
+# OS
+Thumbs.db
